@@ -320,7 +320,7 @@ LISTA=$(gh repo list "$CONTA" --limit 2000 --json name -q '.[].name') &amp;&amp;
   U="https://oauth2:$GITLAB_TOKEN@gitlab.com/$GL/$R.git"
   { git -C "$E" push -q "$U" --all &amp;&amp; git -C "$E" push -q "$U" --tags; } || { echo "GitLab recusou $R"; FALHAS=$((FALHAS+1)); }
 <span class="k">done</span>
-<span class="c"># rotação: apaga fotos com mais de 35 dias, menos as do dia 01 (ficam como mensais; apague à mão as muito antigas)</span>
+<span class="c"># rotaçêo: apaga fotos com mais de 35 dias, menos as do dia 01 (ficam como mensais; apague à mêo as muito antigas)</span>
 find "$BASE/fotos" -mindepth 1 -maxdepth 1 -type d -mtime +35 ! -name '*-01' -exec rm -rf {} +
 echo "$DIA: $FALHAS falha(s)" &gt;&gt; "$BASE/rotina.log"</pre>
     <p><b>Antes de la primera copia completa, haz dos comprobaciones.</b> Primero, prueba con 3 repos: haz los pasos 4 a 6 a mano en 3 de ellos y la restauración del paso 8; continúa solo si las cifras coinciden. Después, revisa los repos más grandes: GitLab gratis acepta hasta 10 GiB por proyecto y 5 GiB por envío. El comando de abajo muestra los 5 más grandes, en KB (estimación del propio GitHub). Un repo que supere el límite se queda solo en las fotos y en la copia fuera de casa, y la rutina registrará "GitLab recusou" (GitLab rechazó) para él cada día.</p>

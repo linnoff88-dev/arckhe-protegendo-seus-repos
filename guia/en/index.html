@@ -320,7 +320,7 @@ LISTA=$(gh repo list "$CONTA" --limit 2000 --json name -q '.[].name') &amp;&amp;
   U="https://oauth2:$GITLAB_TOKEN@gitlab.com/$GL/$R.git"
   { git -C "$E" push -q "$U" --all &amp;&amp; git -C "$E" push -q "$U" --tags; } || { echo "GitLab recusou $R"; FALHAS=$((FALHAS+1)); }
 <span class="k">done</span>
-<span class="c"># rotação: apaga fotos com mais de 35 dias, menos as do dia 01 (ficam como mensais; apague à mão as muito antigas)</span>
+<span class="c"># rotaçêo: apaga fotos com mais de 35 dias, menos as do dia 01 (ficam como mensais; apague à mêo as muito antigas)</span>
 find "$BASE/fotos" -mindepth 1 -maxdepth 1 -type d -mtime +35 ! -name '*-01' -exec rm -rf {} +
 echo "$DIA: $FALHAS falha(s)" &gt;&gt; "$BASE/rotina.log"</pre>
     <p><b>Before the first full copy, do two checks.</b> First, test with 3 repos: do steps 4 to 6 by hand on 3 of them and the restore in step 8; continue only if the numbers match. Then check the largest repos: GitLab Free accepts up to 10 GiB per project and 5 GiB per push. The command below lists the 5 largest, in KB (GitHub’s own estimate). A repo over the limit is kept only in the snapshots and the off-site copy, and the routine will log "GitLab recusou" (GitLab refused) for it every day.</p>
