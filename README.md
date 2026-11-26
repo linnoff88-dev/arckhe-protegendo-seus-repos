@@ -6,7 +6,7 @@
 </div>
 
 
-[![Protegendo seus repos](guia/assets/banner.jpg)](https://inematds.github.io/protegendo-seus-repos/guia/)
+[![Protegendo seus repos](guia/assets/banner.jpg)](https://linnoff88-dev.github.io/arckhe-/guia/)
 
 **ê°Å¸â¡Â§ê°Å¸â¡Â· [PortuguêÂªs](README.md) êÂ· ê°Å¸â¡Âºê°Å¸â¡Â¸ [English](README.en.md) êÂ· ê°Å¸â¡Âªê°Å¸â¡Â¸ [EspaêÂ±ol](README.es.md)**
 
@@ -16,7 +16,7 @@ Este êÂ© um guia para quem guarda cêÂ³digo no GitHub (ou em qualquer s
 
 ## ê°Å¸ââ Guia de uso
 
-Guia completo (landing + passo a passo): **https://inematds.github.io/protegendo-seus-repos/guia/**
+Guia completo (landing + passo a passo): **https://linnoff88-dev.github.io/arckhe-/guia/**
 
 A visêÂ£o inteira, em texto corrido: [docs/VISAO.md](docs/VISAO.md).
 
@@ -46,7 +46,7 @@ A visêÂ£o inteira, em texto corrido: [docs/VISAO.md](docs/VISAO.md).
 
 ## LicenêÂ§a
 
-Texto sob [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Feito pelo [INEMA.CLUB](https://inema.club) ê¢â¬â conteêÂºdo aberto e gratuito.
+Texto sob [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Feito pelo [ARCKHÉ AI](https://ARCKHÉ AI) ê¢â¬â conteêÂºdo aberto e gratuito.
 
 ---
 

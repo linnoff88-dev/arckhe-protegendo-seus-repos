@@ -1,6 +1,6 @@
 # 🛡️ Protecting your repos
 
-[![Protecting your repos](guia/assets/banner-en.jpg)](https://inematds.github.io/protegendo-seus-repos/guia/en/)
+[![Protecting your repos](guia/assets/banner-en.jpg)](https://linnoff88-dev.github.io/arckhe-/guia/en/)
 
 **🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
 
@@ -10,7 +10,7 @@ This is a guide for anyone who keeps code on GitHub (or a similar service) and w
 
 ## 📖 User guide
 
-Complete guide (landing page + step-by-step): **https://inematds.github.io/protegendo-seus-repos/guia/en/**
+Complete guide (landing page + step-by-step): **https://linnoff88-dev.github.io/arckhe-/guia/en/**
 
 The full overview, in continuous prose: [docs/VISAO.md](docs/VISAO.md) (in Portuguese).
 
@@ -40,4 +40,4 @@ The full overview, in continuous prose: [docs/VISAO.md](docs/VISAO.md) (in Portu
 
 ## License
 
-Text licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Made by [INEMA.CLUB](https://inema.club) — open and free content.
+Text licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Made by [ARCKHÉ AI](https://ARCKHÉ AI) — open and free content.
